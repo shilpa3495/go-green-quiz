@@ -1,5 +1,3 @@
-// import { useName } from "./context";
-
 import userImg from "../../assets/svg/userImg.svg";
 import { useNavigate } from "react-router-dom";
 import { ModalType } from "./type";
@@ -37,7 +35,7 @@ export function Modal({ title, inputField }: ModalType) {
             <div className="input-container">
               <span className="inside-input-info grey-text">
                 <span className="input-img">
-                  <img className="xs-avatar" src={userImg} />
+                  <img className="xs-avatar" src={userImg} alt="no-avatar" />
                 </span>
                 <span className="input-line">|</span>
               </span>

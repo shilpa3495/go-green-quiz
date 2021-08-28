@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { ReactComponent as GithubIcon } from "../../assets/svg/github.svg";
 import { ReactComponent as MoonIcon } from "../../assets/svg/moon.svg";
 import LogoIcon from "../../assets/svg/green-leaf-logo.svg";
