@@ -1,0 +1,37 @@
+
+.result-card-container{
+    margin: auto;
+    align-self: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: max-content;
+    bottom: 0;
+    text-align: center;
+}
+
+.result-thanks-text{
+    margin-top:0;
+    color: var(--dark-color);
+}
+
+.result-sub-heading-container{
+    margin-bottom: 10px;
+}
+
+.result-highlighted-text{
+    color:var(--primary-color);
+}
+
+.result-sub-heading-text{
+    margin-right: 5px;
+}
+
+.result-play-again-button{
+    margin-top:15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: "Roboto-Medium";
+}

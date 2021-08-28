@@ -1,0 +1,12 @@
+.vertical-product-card {
+  position: relative;
+  min-height: 320px;
+}
+
+.vertical-product-card .primary-button {
+  display: block;
+  margin-left: auto;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}

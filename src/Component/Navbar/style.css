@@ -1,0 +1,5 @@
+.moon-green-color path,
+.nav-list-item:hover .moon-image path,
+.nav-list-item:hover .github-image path {
+  fill: var(--primary-color);
+}

@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Home } from "./Pages/Home";
+import { Quiz } from "./Pages/Quiz";
+import { Result } from "./Pages/Result";
+import { Routes, Route } from "react-router-dom";
+import { useTheme } from "./Component/Navbar/context";
 
 function App() {
+  const { theme } = useTheme()!;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`app-theme-container ${theme ? "light-theme" : "dark-theme"}`}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/result" element={<Result />} />
+      </Routes>
     </div>
   );
 }
